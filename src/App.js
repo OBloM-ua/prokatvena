@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import AppHeader from "./components/AppHeader";
 import Body from "./components/Body";
+import Button from "./components/Button";
 
 class App extends Component {
     render() {
