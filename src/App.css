@@ -9,11 +9,8 @@
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
 
-.App-intro {
-  font-size: large;
+.Body{
+  padding: 10%;
+  background-color: #96eeff;
 }
-
