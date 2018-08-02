@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
-import AppHeader from "./components/AppHeader";
+import NavBar from "./components/NavBar";
 import Body from "./components/Body";
-import Button from "./components/Button";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <AppHeader/>
+
+                <NavBar/>
                 <Body/>
             </div>
         );

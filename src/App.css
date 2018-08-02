@@ -11,6 +11,10 @@
 
 
 .Body{
-  padding: 5em;
-  background-color: #96eeff;
+  background-color: white;
+  padding-top: 1em;
+}
+
+.NavBar{
+  background-color: #53aff5;
 }
