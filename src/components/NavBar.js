@@ -15,13 +15,13 @@ class NavBar extends Component {
                 <Navbar inverse collapseOnSelect fixedTop>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="#brand">Прокат-Wien</a>
+                            <a href="Home">Прокат-Wien</a>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav>
-                            <NavItem eventKey={1} href="#">
+                            <NavItem eventKey={1} href="Home">
                                 Главная
                             </NavItem>
                             <NavDropdown eventKey={3} title="Компания" id="basic-nav-dropdown">
@@ -43,7 +43,7 @@ class NavBar extends Component {
                             </NavDropdown>
                         </Nav>
                         <Nav pullRight>
-                            <NavItem eventKey={1} href="#">
+                            <NavItem eventKey={1} href="CarReservation">
                                 РЕЗЕРВИРОВАНИЕ АВТО
                             </NavItem>
                         </Nav>

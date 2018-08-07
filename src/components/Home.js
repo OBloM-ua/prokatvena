@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import '../App.css';
 
-class Body extends Component {
+class Home extends Component {
     render() {
         return (
-            <div className="Body">
+            <div className="Home">
                 <h1>Прокат машин в Австрии - аренда автомобилей в Вене + аэропорт.</h1>
                 <h2>Добро пожаловать на сайт аренды авто в Вене и аэропорту!</h2>
                 <h3>Преимущества аренды машин у нас</h3>
@@ -22,4 +22,4 @@ class Body extends Component {
     }
 }
 
-export default Body;
+export default Home;
