@@ -15,7 +15,7 @@ class NavBar extends Component {
                 <Navbar inverse collapseOnSelect fixedTop>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="Home">Прокат-Wien</a>
+                            <a href="/">Прокат-Wien</a>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
@@ -25,7 +25,7 @@ class NavBar extends Component {
                                 Главная
                             </NavItem>
                             <NavDropdown eventKey={3} title="Компания" id="basic-nav-dropdown">
-                                <MenuItem eventKey={3.1}>Доп. услуги</MenuItem>
+                                <MenuItem eventKey={3.1} href="DopYslugi">Доп. услуги</MenuItem>
                                 <MenuItem eventKey={3.2}>Наши преимущества</MenuItem>
                                 <MenuItem eventKey={3.3}>Страхование</MenuItem>
                                 <MenuItem eventKey={3.4}>Пересечение границ</MenuItem>
@@ -49,25 +49,6 @@ class NavBar extends Component {
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>;
-                {/*<ButtonToolbar>*/}
-                    {/*<Button Button bsStyle="primary">Главная</Button>*/}
-                    {/*<Button Button bsStyle="primary">Доп. услуги</Button>*/}
-                    {/*<Button Button bsStyle="primary">Наши преимущества</Button>*/}
-                    {/*<Button Button bsStyle="primary">Страхование</Button>*/}
-                    {/*<Button Button bsStyle="primary">Пересечение границ</Button>*/}
-                    {/*<Button Button bsStyle="primary">Оценка повреждений</Button>*/}
-                {/*</ButtonToolbar>*/}
-                {/*<ButtonToolbar>*/}
-                {/*<p>*/}
-                    {/*<Button Button bsStyle="primary">О штрафах</Button>*/}
-                    {/*<Button Button bsStyle="primary">Отличия ПДД</Button>*/}
-                    {/*<Button Button bsStyle="primary">Особенности парковки</Button>*/}
-                    {/*<Button Button bsStyle="primary">О платных дорогах</Button>*/}
-                    {/*<Button Button bsStyle="primary">Контакты</Button>*/}
-                    {/*<Button Button bsStyle="danger">РЕЗЕРВИРОВАНИЕ АВТО</Button>*/}
-                {/*</p>*/}
-                {/*</ButtonToolbar>*/}
-
             </div>
         );
     }
