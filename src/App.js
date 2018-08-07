@@ -1,13 +1,17 @@
 import React, {Component} from 'react';
 import './App.css';
-import NavBar from "./components/NavBar";
 import {Route, Switch} from "react-router-dom";
+
+import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import CarReservation from "./components/CarReservation";
 import DopYslugi from "./components/DopYslugi";
 
 const ReactRouter = require('react-router-dom');
 const Router = ReactRouter.BrowserRouter;
+
+
+
 
 
 class App extends Component {
