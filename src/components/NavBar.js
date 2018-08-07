@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import '../App.css';
-import Button from "react-bootstrap/es/Button";
-import Label from "react-bootstrap/es/Label";
 import Navbar from "react-bootstrap/es/Navbar";
 import Nav from "react-bootstrap/es/Nav";
 import NavItem from "react-bootstrap/es/NavItem";
@@ -26,7 +24,7 @@ class NavBar extends Component {
                             </NavItem>
                             <NavDropdown eventKey={3} title="Компания" id="basic-nav-dropdown">
                                 <MenuItem eventKey={3.1} href="DopYslugi">Доп. услуги</MenuItem>
-                                <MenuItem eventKey={3.2}>Наши преимущества</MenuItem>
+                                <MenuItem eventKey={3.2} href="OurAdvantages">Наши преимущества</MenuItem>
                                 <MenuItem eventKey={3.3}>Страхование</MenuItem>
                                 <MenuItem eventKey={3.4}>Пересечение границ</MenuItem>
                                 <MenuItem eventKey={3.5}>Оценка повреждений</MenuItem>
