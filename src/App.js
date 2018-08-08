@@ -10,6 +10,10 @@ import OurAdvantages from "./components/OurAdvantages";
 import Insurance from "./components/Insurance";
 import BordersCrossing from "./components/BordersCrossing";
 import DamageAssessment from "./components/DamageAssessment";
+import AboutFines from "./components/AboutFines";
+import DifferencesTrafficCode from "./components/DifferencesTrafficCode";
+import ParkingFeatures from "./components/ParkingFeatures";
+import AboutTollRoads from "./components/AboutTollRoads";
 
 const ReactRouter = require('react-router-dom');
 const Router = ReactRouter.BrowserRouter;
@@ -34,6 +38,10 @@ class App extends Component {
                         <Route exact path='/Insurance' component={Insurance} />
                         <Route exact path='/BordersCrossing' component={BordersCrossing} />
                         <Route exact path='/DamageAssessment' component={DamageAssessment} />
+                        <Route exact path='/AboutFines' component={AboutFines} />
+                        <Route exact path='/DifferencesTrafficCode' component={DifferencesTrafficCode} />
+                        <Route exact path='/ParkingFeatures' component={ParkingFeatures} />
+                        <Route exact path='/AboutTollRoads' component={AboutTollRoads} />
 
                     </Switch>
 

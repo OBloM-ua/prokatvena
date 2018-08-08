@@ -31,10 +31,10 @@ class NavBar extends Component {
 
                             </NavDropdown>
                             <NavDropdown eventKey={3} title="Інфо" id="basic-nav-dropdown">
-                                <MenuItem eventKey={3.1}>О штрафах</MenuItem>
-                                <MenuItem eventKey={3.2}>Отличия ПДД</MenuItem>
-                                <MenuItem eventKey={3.3}>Особенности парковки</MenuItem>
-                                <MenuItem eventKey={3.4}>О платных дорогах</MenuItem>
+                                <MenuItem eventKey={3.1} href="AboutFines">О штрафах</MenuItem>
+                                <MenuItem eventKey={3.2} href="DifferencesTrafficCode">Отличия ПДД</MenuItem>
+                                <MenuItem eventKey={3.3} href="ParkingFeatures">Особенности парковки</MenuItem>
+                                <MenuItem eventKey={3.4} href="AboutTollRoads">О платных дорогах</MenuItem>
                                 <MenuItem divider />
                                 <MenuItem eventKey={3.5}>Контакты</MenuItem>
 
