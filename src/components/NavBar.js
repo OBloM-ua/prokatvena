@@ -23,11 +23,11 @@ class NavBar extends Component {
                                 Главная
                             </NavItem>
                             <NavDropdown eventKey={3} title="Компания" id="basic-nav-dropdown">
-                                <MenuItem eventKey={3.1} href="DopYslugi">Доп. услуги</MenuItem>
+                                <MenuItem eventKey={3.1} href="AdditionalServices">Доп. услуги</MenuItem>
                                 <MenuItem eventKey={3.2} href="OurAdvantages">Наши преимущества</MenuItem>
-                                <MenuItem eventKey={3.3}>Страхование</MenuItem>
-                                <MenuItem eventKey={3.4}>Пересечение границ</MenuItem>
-                                <MenuItem eventKey={3.5}>Оценка повреждений</MenuItem>
+                                <MenuItem eventKey={3.3} href="Insurance">Страхование</MenuItem>
+                                <MenuItem eventKey={3.4} href="BordersCrossing">Пересечение границ</MenuItem>
+                                <MenuItem eventKey={3.5} href="DamageAssessment">Оценка повреждений</MenuItem>
 
                             </NavDropdown>
                             <NavDropdown eventKey={3} title="Інфо" id="basic-nav-dropdown">
