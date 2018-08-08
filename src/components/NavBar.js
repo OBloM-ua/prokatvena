@@ -36,7 +36,7 @@ class NavBar extends Component {
                                 <MenuItem eventKey={3.3} href="ParkingFeatures">Особенности парковки</MenuItem>
                                 <MenuItem eventKey={3.4} href="AboutTollRoads">О платных дорогах</MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={3.5}>Контакты</MenuItem>
+                                <MenuItem eventKey={3.5} href="Contacts">Контакты</MenuItem>
 
                             </NavDropdown>
                         </Nav>

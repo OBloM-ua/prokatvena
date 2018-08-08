@@ -14,6 +14,7 @@ import AboutFines from "./components/AboutFines";
 import DifferencesTrafficCode from "./components/DifferencesTrafficCode";
 import ParkingFeatures from "./components/ParkingFeatures";
 import AboutTollRoads from "./components/AboutTollRoads";
+import Contacts from "./components/Contacts";
 
 const ReactRouter = require('react-router-dom');
 const Router = ReactRouter.BrowserRouter;
@@ -42,6 +43,7 @@ class App extends Component {
                         <Route exact path='/DifferencesTrafficCode' component={DifferencesTrafficCode} />
                         <Route exact path='/ParkingFeatures' component={ParkingFeatures} />
                         <Route exact path='/AboutTollRoads' component={AboutTollRoads} />
+                        <Route exact path='/Contacts' component={Contacts} />
 
                     </Switch>
 
