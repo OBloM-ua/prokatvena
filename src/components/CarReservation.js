@@ -1,7 +1,13 @@
 import React, {Component} from 'react';
 import '../App.css';
 import Button from "react-bootstrap/es/Button";
-import {Checkbox, ControlLabel, FormControl, FormGroup, HelpBlock, Radio} from "react-bootstrap";
+import {Checkbox, ControlLabel, FormControl, FormGroup, HelpBlock} from "react-bootstrap";
+import 'rc-time-picker/assets/index.css';
+import moment from 'moment';
+import TimePicker from 'rc-time-picker';
+import { DatePicker, DatePickerInput } from 'rc-datepicker';
+import 'rc-datepicker/lib/style.css';
+
 
 class CarReservation extends Component {
 
@@ -45,11 +51,22 @@ class CarReservation extends Component {
                         placeholder="Enter email"
                     />
 
+                    <FieldGroup
+                        id="formControlsText"
+                        type="number"
+                        label="Возраст водителя"
+                    />
+
+
 
                     <Checkbox checked readOnly>
                         GPS навигатор
                     </Checkbox>
-
+                    <DatePickerInput
+                        className='my-custom-datepicker-component'
+                    />
+                    <TimePicker defaultValue={moment()} showSecond={false} minuteStep={15} />
+                    <TimePicker defaultValue={moment()} showSecond={false} minuteStep={15} />
 
                     <FormGroup controlId="formControlsSelect">
                         <ControlLabel>Автомобиль</ControlLabel>
@@ -124,7 +141,7 @@ class CarReservation extends Component {
 
                     <FormGroup controlId="formControlsTextarea">
                         <ControlLabel>Комментарий</ControlLabel>
-                        <FormControl componentClass="textarea" placeholder="textarea"/>
+                        <FormControl componentClass="textarea" placeholder="Я хотел бы"/>
                     </FormGroup>
 
 
