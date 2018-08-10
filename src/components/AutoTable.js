@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Col, Table, Thumbnail} from "react-bootstrap";
 import fabia3 from '../img/fabia3.jpg';
 import fabiacombi3 from '../img/fabiacombi3.png';
+import polo from '../img/polo.jpg';
 
 class AutoTable extends Component {
     render() {
@@ -59,7 +60,7 @@ class AutoTable extends Component {
                     <td>840</td>
                 </tr>
                 <tr>
-                    <img src={fabia3}/>
+                    <img src={polo}/>
                     <td>Volkswagen Polo</td>
                     <td>х/б 5</td>
                     <td>ДТ</td>
