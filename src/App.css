@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  padding-left: 5%;
-  margin-right: 5%;
+  padding-left: 8%;
+  margin-right: 8%;
+}
+.Home {
+  text-align: left;
+
 }
 
 .AppHeader {

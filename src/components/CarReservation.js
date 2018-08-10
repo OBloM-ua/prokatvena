@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
-import '../App.css';
-import Button from "react-bootstrap/es/Button";
-import {Checkbox, ControlLabel, FormControl, FormGroup, HelpBlock} from "react-bootstrap";
+import 'rc-datepicker/lib/style.css';
 import 'rc-time-picker/assets/index.css';
+import {Button, Checkbox, ControlLabel, FormControl, FormGroup, HelpBlock} from "react-bootstrap";
+import {DatePickerInput } from 'rc-datepicker';
 import moment from 'moment';
 import TimePicker from 'rc-time-picker';
-import { DatePicker, DatePickerInput } from 'rc-datepicker';
-import 'rc-datepicker/lib/style.css';
 
 
 class CarReservation extends Component {
