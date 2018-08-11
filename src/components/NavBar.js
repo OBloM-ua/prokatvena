@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
+// import '../bootstrap.css';  // тема не натягується якогось хуя
+
 import Navbar from "react-bootstrap/es/Navbar";
 import Nav from "react-bootstrap/es/Nav";
 import NavItem from "react-bootstrap/es/NavItem";
