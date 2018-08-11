@@ -46,7 +46,7 @@ class NavBar extends Component {
                             </NavItem>
                         </Nav>
                     </Navbar.Collapse>
-                </Navbar>;
+                </Navbar>
             </div>
         );
     }
